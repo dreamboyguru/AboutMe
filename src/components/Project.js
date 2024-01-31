@@ -32,7 +32,7 @@ function Project() {
                 </div>
               </div>
               <div className='w-full px-2'>
-                <div className='bg-blue-600 text-white p-2 hover:bg-blue-800'>
+                <div className='bg-blue-600 text-white p-2 hover:bg-blue-900 font-mango shadow-md'>
                   <button type='submit' onClick={()=>handleButtonClick(1)} className='w-full font-mono' >Project Details</button>
                 </div>
                 {expanded === true && (
@@ -74,19 +74,33 @@ function Project() {
                 )}
                 
               </div>
-              <div className="container mx-auto px-2 my-2">
+              <div className="container mx-auto px-2 my-3">
                 <div className="w-full flex justify-between">
                   <a href='https://flashcardd.vercel.app'
                     target='_blank'
                     rel='noreferrer'
-                    className="py-2 px-4 bg-blue-900 text-white rounded hover:bg-blue-700 focus:outline-none focus:bg-blue-600"
+                    className="py-2 px-4 bg-blue-600 text-white rounded hover:bg-blue-900 font-mango focus:outline-none focus:bg-blue-900 shadow-md"
                   >
                     SEE LIVE
+                  </a>
+                  <a href='https://www.loom.com/share/07a09b233b034e96beeb35b04332b39d?sid=85e4da3e-6640-4fea-877f-22d6019ba6b8'
+                    target='_blank'
+                    rel='noreferrer'
+                    className="py-2 px-4 bg-blue-600 text-white rounded hover:bg-blue-900 font-mango focus:outline-none focus:bg-blue-900 shadow-md"
+                  >
+                    PROJECT DEMO
+                  </a>
+                  <a href='https://certificates.almabetter.com/en/verify/08216973909030'
+                    target='_blank'
+                    rel='noreferrer'
+                    className="py-2 px-4 bg-blue-600 text-white rounded hover:bg-blue-900 font-mango focus:outline-none focus:bg-blue-900 shadow-md"
+                  >
+                    CERTIFICATE
                   </a>
                   <a href='https://github.com/dreamboyguru/flashcard' 
                     target='_blank'
                     rel='noreferrer'
-                    className="py-2 px-4 bg-blue-900 text-white rounded hover:bg-blue-700 focus:outline-none focus:bg-blue-600"
+                    className="py-2 px-4 bg-blue-600 text-white rounded hover:bg-blue-900 font-mango focus:outline-none focus:bg-blue-900 shadow-md"
                   >
                     SOURCE CODE
                   </a>
@@ -103,7 +117,7 @@ function Project() {
                 </div>
               </div>
               <div className='w-full px-2'>
-                <div className='bg-blue-600 text-white p-2 hover:bg-blue-800'>
+                <div className='bg-blue-600 text-white p-2 hover:bg-blue-900 font-mango shadow-md'>
                   <button type='submit' onClick={()=>handleButtonClick(2)} className='w-full font-mono' >Project Details</button>
                 </div>
                 {expanded2 === true && (
@@ -144,19 +158,31 @@ function Project() {
                 )}
                 
               </div>
-              <div className="container mx-auto px-2 my-2">
+              <div className="container mx-auto px-2 my-3">
                 <div className="w-full flex justify-between">
                   <a href='https://youtube-subscription.onrender.com'
                     target='_blank'
                     rel='noreferrer'
-                    className="py-2 px-4 bg-blue-900 text-white rounded hover:bg-blue-700 focus:outline-none focus:bg-blue-600"
+                    className="py-2 px-4 bg-blue-600 text-white rounded hover:bg-blue-900 font-mono focus:outline-none focus:bg-blue-900 shadow-md"
                   >
                     SEE LIVE
+                  </a>
+                  <a href
+                    className="py-2 px-4 bg-blue-600 text-white rounded hover:bg-blue-900 font-mono focus:outline-none focus:bg-blue-900 shadow-md"
+                  >
+                    PROJECT DEMO
+                  </a>
+                  <a href='https://certificates.almabetter.com/en/verify/71935460387591'
+                    target='_blank'
+                    rel='noreferrer'
+                    className="py-2 px-4 bg-blue-600 text-white rounded hover:bg-blue-900 font-mono focus:outline-none focus:bg-blue-900 shadow-md"
+                  >
+                    CERTIFICATE
                   </a>
                   <a href='https://github.com/dreamboyguru/youtube_subscription'
                     target='_blank'
                     rel='noreferrer'
-                    className="py-2 px-4 bg-blue-900 text-white rounded hover:bg-blue-700 focus:outline-none focus:bg-blue-600"
+                    className="py-2 px-4 bg-blue-600 text-white rounded hover:bg-blue-900 font-mono focus:outline-none focus:bg-blue-900 shadow-md"
                   >
                     SOURCE CODE
                   </a>
