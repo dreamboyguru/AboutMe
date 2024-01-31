@@ -24,10 +24,15 @@ function About() {
               <div className="flex flex-wrap justify-center">
                 <a href='#contact' className="bg-green-600 hover:bg-green-800 text-white font-bold hover:text-black items-center justify-items-center rounded-md p-3 m-5 ">Let's talk</a>
                 <a href='https://drive.google.com/file/d/12K7mNbow1RZrZB2e3PL-GxW8lJP1pcnx/view?usp=sharing'
-                  target='_blank' rel="noreferrer"
+                  target='_blank' 
+                  rel="noreferrer"
                   className="bg-red-600 hover:bg-red-800 text-white font-bold hover:text-black items-center justify-items-center rounded-md p-3 m-5 "
                 >My Resume</a>
-                <a href='https://github.com/dreamboyguru' target='_blank' rel="noreferrer" className="bg-blue-600 hover:bg-blue-800 text-white font-bold hover:text-black items-center justify-items-center rounded-md p-3 m-5 ">GitHub</a>
+                <a href='https://github.com/dreamboyguru' 
+                  target='_blank' 
+                  rel="noreferrer" 
+                  className="bg-blue-600 hover:bg-blue-800 text-white font-bold hover:text-black items-center justify-items-center rounded-md p-3 m-5 "
+                >GitHub</a>
               </div>
             </form>
           </div>
