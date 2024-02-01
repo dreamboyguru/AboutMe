@@ -20,7 +20,7 @@ function Project() {
         <div>
           <h1 className='text-3xl font-bold bg-white my-10'>Projects</h1>
         </div>
-        <div class='px-4 sm:px-8 md:px-12 lg:px-20'>
+        <div class='px-4 sm:px-8 md:px-12 lg:px-20 max-md:-ml-6'>
           <div class='flex flex-wrap w-full'>
             <div class='flex-none w-[47%] mx-3 max-md:w-full max-lg:w-full max-lg:mb-5 max-md:mb-5 bg-blue-100 rounded-md shadow-md'>
               <div className='w-full justify-center items-center'>
