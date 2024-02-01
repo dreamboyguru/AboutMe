@@ -68,13 +68,35 @@ function Project() {
                           </div> 
                         </div>
                         <hr className="my-4" />
+                        <div className="mb-4 text-left px-5">
+                          <span className="font-semibold text-left">View the project demo by
+                            <a href='https://www.loom.com/share/07a09b233b034e96beeb35b04332b39d?sid=85e4da3e-6640-4fea-877f-22d6019ba6b8'
+                              target='_blank'
+                              rel='noreferrer'
+                              className="text-blue-600 hover:text-red-600 ml-1"
+                            >
+                              clicking here
+                            </a> 
+                          </span>                          
+                        </div>
+                        <div className="mb-2 text-left px-5">
+                          <span className="font-semibold text-left">View the project certificate by
+                            <a href='https://certificates.almabetter.com/en/verify/08216973909030'
+                              target='_blank'
+                              rel='noreferrer'
+                              className="text-blue-600 hover:text-red-600 ml-1"
+                            >
+                               clicking here.
+                            </a>
+                          </span>                          
+                        </div>
                       </div>
                     </div>
                   </>
                 )}
                 
               </div>
-              <div className="container mx-auto px-2 my-3">
+              <div className="container mx-auto px-2 mt-3">
                 <div className="w-full flex flex-wrap justify-between">
                   <a href='https://flashcardd.vercel.app'
                     target='_blank'
@@ -83,20 +105,7 @@ function Project() {
                   >
                     SEE LIVE
                   </a>
-                  <a href='https://www.loom.com/share/07a09b233b034e96beeb35b04332b39d?sid=85e4da3e-6640-4fea-877f-22d6019ba6b8'
-                    target='_blank'
-                    rel='noreferrer'
-                    className="py-3 px-4 bg-blue-600 text-white rounded hover:bg-blue-900 font-mango focus:outline-none focus:bg-blue-900 shadow-md mb-3"
-                  >
-                    PROJECT DEMO
-                  </a>
-                  <a href='https://certificates.almabetter.com/en/verify/08216973909030'
-                    target='_blank'
-                    rel='noreferrer'
-                    className="py-3 px-4 bg-blue-600 text-white rounded hover:bg-blue-900 font-mango focus:outline-none focus:bg-blue-900 shadow-md mb-3"
-                  >
-                    CERTIFICATE
-                  </a>
+                  
                   <a href='https://github.com/dreamboyguru/flashcard' 
                     target='_blank'
                     rel='noreferrer'
@@ -152,13 +161,36 @@ function Project() {
                           </div>                          
                         </div>
                         <hr className="my-4" />
+                        {/* <div className="mb-4 text-left px-5">
+                          <span className="font-semibold text-left">View the project demo by
+                            <a href
+                              target='_blank'
+                              rel='noreferrer'
+                              className="text-blue-600 ml-1"
+                            >
+                              clicking here
+                            </a> 
+                          </span>                          
+                        </div> */}
+                        <div className="mb-4 text-left px-5">
+                          <span className="font-semibold text-left">View the project certificate by
+                            <a href='https://certificates.almabetter.com/en/verify/71935460387591'
+                              target='_blank'
+                              rel='noreferrer'
+                              className="text-blue-600 hover:text-red-600 ml-1"
+                            >
+                               clicking here.
+                            </a>
+                          </span>                          
+                        </div>
+                        <hr className="my-6" />
                       </div>
                     </div>
                   </>
                 )}
                 
               </div>
-              <div className="container mx-auto px-2 my-3">
+              <div className="container mx-auto px-2 mt-3">
                 <div className="w-full flex flex-wrap justify-between">
                   <a href='https://youtube-subscription.onrender.com'
                     target='_blank'
@@ -167,18 +199,7 @@ function Project() {
                   >
                     SEE LIVE
                   </a>
-                  <a href
-                    className="py-3 px-4 bg-blue-600 text-white rounded hover:bg-blue-900 font-mono focus:outline-none focus:bg-blue-900 shadow-md mb-3"
-                  >
-                    PROJECT DEMO
-                  </a>
-                  <a href='https://certificates.almabetter.com/en/verify/71935460387591'
-                    target='_blank'
-                    rel='noreferrer'
-                    className="py-3 px-4 bg-blue-600 text-white rounded hover:bg-blue-900 font-mono focus:outline-none focus:bg-blue-900 shadow-md mb-3"
-                  >
-                    CERTIFICATE
-                  </a>
+                                    
                   <a href='https://github.com/dreamboyguru/youtube_subscription'
                     target='_blank'
                     rel='noreferrer'
