@@ -5,16 +5,16 @@ function About() {
   return (
     <section id='about'>
       <div className="relative">
-      <h2 className="text-3xl font-bold bg-white mt-10">About Me </h2>
-        <img src={aboutme} alt="img" className="w-full max-h-[600px] h-auto" />
+      <h2 className="text-3xl font-bold bg-white mt-10 max-md:mb-[310px] max-sm:mb-[410px]">About Me </h2>
+        <img src={aboutme} alt="img" className="w-full max-h-[600px] h-auto max-md:hidden" />
 
         {/* Overlay form */}
-        <div className="absolute top-20 left-0 w-1/3 h-full flex items-start ml-[65%] max-lg:ml-[55%] max-lg:w-[45%] max-md:mx-[2.5%] max-lg:top-10 max-md:w-[95%]">
-          <div className="bg-white p-6 rounded-lg shadow-lg">
+        <div className="absolute top-20 left-0 w-1/3 h-full flex items-start ml-[65%] max-lg:ml-[55%] max-lg:w-[45%] max-md:mx-[2.5%] max-lg:top-10 max-md:w-[95%] ">
+          <div className="bg-white p-6 rounded-lg shadow-md">
             {/* Form content */}
             
             <form>
-              <div className='text-justify'>
+              <div className='text-justify max-sm:text-sm'>
                 <li className=''> 
                   "I'm a passionate web developer specializing in the MERN stack (MongoDB, Express.js, React.js, Node.js) with expertise in HTML, CSS, Bootstrap, Tailwind CSS, and MariaDB. Currently learning MERN for web applications.</li>
 
