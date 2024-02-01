@@ -12,14 +12,15 @@ function Home() {
     return () => Type.destroy();
   })
 
-
+  // style={{backgroundImage: `url(${home2})`,backgroundSize: 'cover'}}
 
   return (
-    <section id='home' className='bg-no-repeat border-2 border-blue-800 h-screen text-white' style={{backgroundImage: `url(${home2})`,backgroundSize: 'cover'}}>
-      <div className=' mt-72 justify-center items-end'>
-        <h1 className='font-medium text-5xl text-yellow-400'>Hey, I am</h1>
-        <h1 className='font-medium text-5xl text-yellow-400'>Gurusidda</h1> 
-        <span className='font-medium text-4xl text-yellow-400' ref={ele}> Developer</span>
+    <section id='home' className='bg-no-repeat border-0 border-blue-800 h-auto text-white'>
+      <img src={home2} alt='' className='relative'/>
+      <div className='absolute top-20 left-0 mt-48 justify-center items-end w-full max-lg:mt-20 max-md:mt-10 max-sm:mt-0'>
+        <h1 className='font-medium text-5xl text-yellow-400 max-md:text-3xl max-sm:text-xl'>Hey, I am</h1>
+        <h1 className='font-medium text-5xl text-yellow-400 max-md:text-3xl max-sm:text-xl'>Gurusidda</h1> 
+        <span className='font-medium text-4xl text-yellow-400 max-md:text-2xl max-sm:text-lg' ref={ele}> Developer</span>
       </div>
     </section>
   )
