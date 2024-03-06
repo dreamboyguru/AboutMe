@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import project from './images/project.png'
 import project1 from './images/project1.png'
 import project2 from './images/project2.png'
 
@@ -34,11 +35,19 @@ function Project() {
               <div className='w-full justify-center items-center'>
                 <h1 className='text-2xl m-4 font-medium'>Entertainment Web App</h1>
               </div>
+              
               <div className='w-full mb-1'>
                 <div className='mx-2 border-2 border-gray-400 rounded'>
-                  <div className='h-72' style={{backgroundImage: `url(${project1})`,backgroundSize: 'cover'}}></div>
+                  <div className='h-52'>
+                    <img 
+                      src={project} 
+                      alt='Project Image' 
+                      className='w-full h-full' 
+                    />
+                  </div>
                 </div>
               </div>
+
               <div className='w-full px-2'>
                 <div className='bg-blue-600 text-white p-3 hover:bg-blue-900 font-mango shadow-md'>
                   <button type='submit' onClick={()=>handleButtonClick(3)} className='w-full font-mono' >Project Details</button>
@@ -132,7 +141,13 @@ function Project() {
               </div>
               <div className='w-full mb-1'>
                 <div className='mx-2 border-2 border-gray-400 rounded'>
-                  <div className='h-72' style={{backgroundImage: `url(${project1})`,backgroundSize: 'cover'}}></div>
+                  <div className='h-52'>
+                    <img 
+                      src={project1} 
+                      alt='Project Image' 
+                      className='w-full h-full' 
+                    />
+                  </div>
                 </div>
               </div>
               <div className='w-full px-2'>
@@ -225,8 +240,14 @@ function Project() {
                 <h1 className='text-2xl m-4 font-medium'>YouTube Subscription</h1>
               </div>
               <div className='w-full mb-1'>
-                <div className='border-2 border-gray-400 mx-2 rounded'>
-                  <div className='h-72' style={{backgroundImage: `url(${project2})`,backgroundSize: 'cover'}}></div>
+                <div className='mx-2 border-2 border-gray-400 rounded'>
+                  <div className='h-52'>
+                    <img 
+                      src={project2} 
+                      alt='Project Image' 
+                      className='w-full h-full' 
+                    />
+                  </div>
                 </div>
               </div>
               <div className='w-full px-2'>
