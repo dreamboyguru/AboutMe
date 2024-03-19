@@ -22,7 +22,7 @@ Visit the deployed project at
 
 ## Tech Stack
 
-**Client:** React, TailwindCSS, React-typed.js
+**Client:** React, TailwindCSS, React-typed.js.
 
 **IDE:** Visual Studio Code.
 
