@@ -21,18 +21,6 @@ function Certificates() {
                 <div className='w-[15%] mb-5 h-40 m-1 rounded-md bg-blue-100 shadow-md'></div>
                 <div className='w-[15%] mb-5 h-40 m-1 rounded-md bg-blue-100 shadow-md'></div>
                 <div className='w-[15%] mb-5 h-40 m-1 rounded-md bg-blue-100 shadow-md'></div>
-                <div className='w-[15%] mb-5 h-40 m-1 rounded-md bg-blue-100 shadow-md'></div>
-                <div className='w-[15%] mb-5 h-40 m-1 rounded-md bg-blue-100 shadow-md'></div>
-                <div className='w-[15%] mb-5 h-40 m-1 rounded-md bg-blue-100 shadow-md'></div>
-                <div className='w-[15%] mb-5 h-40 m-1 rounded-md bg-blue-100 shadow-md'></div>
-                <div className='w-[15%] mb-5 h-40 m-1 rounded-md bg-blue-100 shadow-md'></div>
-                <div className='w-[15%] mb-5 h-40 m-1 rounded-md bg-blue-100 shadow-md'></div>
-                <div className='w-[15%] mb-5 h-40 m-1 rounded-md bg-blue-100 shadow-md'></div>
-                <div className='w-[15%] mb-5 h-40 m-1 rounded-md bg-blue-100 shadow-md'></div>
-                <div className='w-[15%] mb-5 h-40 m-1 rounded-md bg-blue-100 shadow-md'></div>
-                <div className='w-[15%] mb-5 h-40 m-1 rounded-md bg-blue-100 shadow-md'></div>
-                <div className='w-[15%] mb-5 h-40 m-1 rounded-md bg-blue-100 shadow-md'></div>
-                <div className='w-[15%] mb-5 h-40 m-1 rounded-md bg-blue-100 shadow-md'></div>
             </div>
         </div>
       </div>
