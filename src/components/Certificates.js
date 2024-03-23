@@ -33,12 +33,12 @@ function Certificates() {
                 <div className='w-[24%] max-md:w-full mb-5 h-auto m-1 rounded-md bg-blue-100 shadow-md'>
                   <img src="https://api-lb.appfurther.io/v2/ims/image/71935460387591" alt='new' className='w-full' />
                 </div>
-                // <div className='w-[24%] max-md:w-full mb-5 h-auto m-1 rounded-md bg-blue-100 shadow-md'>
-                //   <img src="https://api-lb.appfurther.io/v2/ims/image/91467683997354" alt='new' className='w-full' />
-                // </div>
-                // <div className='w-[24%] max-md:w-full mb-5 h-auto m-1 rounded-md bg-blue-100 shadow-md'>
-                //   <img src="https://api-lb.appfurther.io/v2/ims/image/62444126859451" alt='new' className='w-full' />
-                // </div>
+                {/* <div className='w-[24%] max-md:w-full mb-5 h-auto m-1 rounded-md bg-blue-100 shadow-md'>
+                  <img src="https://api-lb.appfurther.io/v2/ims/image/91467683997354" alt='new' className='w-full' />
+                </div>
+                <div className='w-[24%] max-md:w-full mb-5 h-auto m-1 rounded-md bg-blue-100 shadow-md'>
+                  <img src="https://api-lb.appfurther.io/v2/ims/image/62444126859451" alt='new' className='w-full' />
+                </div> */}
             </div>
         </div>
       </div>
