@@ -2,7 +2,7 @@
 # About Me
 
 I'm a passionate web developer specializing in the MERN stack (MongoDB, Express.js, React.js, Node.js) with expertise in HTML, CSS, Bootstrap, Tailwind CSS, and MariaDB. Currently learning MERN for web applications.
-I'm also a programming coach, helping others on their journey to become professional programmers. Born and raised in India, I love exploring new technologies to build better and scalable products...
+I'm also a programming coach, helping others on their journey to become professional programmers. Born and raised in India, I love exploring new technologies to build better and scalable products.
 ## Deployment
 
 To deploy this project run (Install dependency)
