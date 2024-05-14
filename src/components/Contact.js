@@ -12,7 +12,7 @@ function Contact() {
                 <a href="mailto:guruhanamannavar676@gmail.com" className="block text-center h-16 pt-5 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-md" target="_blank" rel="noopener noreferrer">Email</a>
               </div>
               <div className="w-full max-w-xs mx-3 mb-4 sm:w-1/6">
-                <a href="https://github.com/dreamboyguru" className="block text-center h-16 pt-5 bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded shadow-md" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="#" className="block text-center h-16 pt-5 bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded shadow-md" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
               <div className="w-full max-w-xs mx-3 mb-4 sm:w-1/6">
                 <a href="https://wa.me/7353249095" className="block text-center h-16 pt-5 bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded shadow-md" target="_blank" rel="noopener noreferrer">WhatsApp</a>
