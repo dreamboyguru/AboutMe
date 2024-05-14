@@ -8,7 +8,6 @@ function Project() {
   const [expanded2, setExpanded2] = useState(false);
   const [expanded3, setExpanded3] = useState(false);
   const [expanded4, setExpanded4] = useState(false);
-  const [expanded5, setExpanded5] = useState(false);
 
   const handleButtonClick = (num) => {
     if(num === 1) {
@@ -20,7 +19,6 @@ function Project() {
     } else if( num === 4 ) {
       setExpanded4(!expanded4)
     }
-    
   };
   return (
     <section className='delay-500' id='project'>
@@ -122,7 +120,7 @@ function Project() {
                     SEE LIVE
                   </a>
                   
-                  <a href='https://github.com/dreamboyguru/Entertainment' 
+                  <a href='#' 
                     target='_blank'
                     rel='noreferrer'
                     className="py-3 px-4 bg-blue-600 text-white rounded hover:bg-blue-900 font-mango focus:outline-none focus:bg-blue-900 shadow-md mb-3"
@@ -226,7 +224,7 @@ function Project() {
                     SEE LIVE
                   </a>
                   
-                  <a href='https://github.com/dreamboyguru/flashcard' 
+                  <a href='#' 
                     target='_blank'
                     rel='noreferrer'
                     className="py-3 px-4 bg-blue-600 text-white rounded hover:bg-blue-900 font-mango focus:outline-none focus:bg-blue-900 shadow-md mb-3"
@@ -326,7 +324,7 @@ function Project() {
                     SEE LIVE
                   </a>
                                     
-                  <a href='https://github.com/dreamboyguru/youtube_subscription'
+                  <a href='#'
                     target='_blank'
                     rel='noreferrer'
                     className="py-3 px-4 bg-blue-600 text-white rounded hover:bg-blue-900 font-mono focus:outline-none focus:bg-blue-900 shadow-md mb-3"
@@ -427,7 +425,7 @@ function Project() {
                     SEE LIVE
                   </a>
                                     
-                  <a href='https://github.com/dreamboyguru/youtube_subscription'
+                  <a href='#'
                     target='_blank'
                     rel='noreferrer'
                     className="py-3 px-4 bg-blue-600 text-white rounded hover:bg-blue-900 font-mono focus:outline-none focus:bg-blue-900 shadow-md mb-3"
