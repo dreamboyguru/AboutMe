@@ -523,7 +523,7 @@ function Project() {
                     SEE LIVE
                   </a>
                   
-                  <a href='https://github.com/dreamboyguru/flashcard' 
+                  <a href='#' 
                     target='_blank'
                     rel='noreferrer'
                     className="py-3 px-4 bg-blue-600 text-white rounded hover:bg-blue-900 font-mango focus:outline-none focus:bg-blue-900 shadow-md mb-3"
