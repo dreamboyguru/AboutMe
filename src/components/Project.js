@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import project from './images/project.png'
 import project1 from './images/project1.png'
-import project2 from './images/project2.png'
+import project2 from './images/project2.jpg'
 
 function Project() {
   const [expanded, setExpanded] = useState(false);
