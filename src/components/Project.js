@@ -453,7 +453,7 @@ function Project() {
                             <li> Render for deployment with GitHub for code hosting</li>
                           </div>                          
                         </div>
-                        <hr className="my-4" />
+                        <hr className="my-2" />
                         {/* <div className="mb-4 text-left px-5">
                           <span className="font-semibold text-left">View the project demo by
                             <a href
@@ -476,7 +476,6 @@ function Project() {
                             </a>
                           </span>                          
                         </div>
-                        <hr className="my-6" />
                       </div>
                     </div>
                   </>
