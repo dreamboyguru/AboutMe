@@ -324,7 +324,7 @@ function Project() {
 
             <div class='flex-none w-[31%] mx-3 mb-5 max-md:w-full max-lg:w-full max-lg:mb-5 max-md:mb-5 bg-blue-100 rounded-md shadow-md'>
               <div className='w-full justify-center items-center'>
-                <h1 className='text-2xl m-4 font-medium'>Flash Card Generation</h1>
+                <h1 className='text-2xl m-4 font-medium'>Resume Builder</h1>
               </div>
               <div className='w-full mb-1'>
                 <div className='mx-2 border-2 border-gray-400 rounded'>
