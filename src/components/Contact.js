@@ -8,18 +8,18 @@ function Contact() {
           <h1 className="text-3xl font-bold bg-white my-10">Contact Me</h1>
           <div className="container flex flex-wrap bg-blue-100 py-16 rounded shadow-lg max-md:p-0">
             <div className="container px-4 py-8 flex flex-wrap justify-center max-md:px-1 max-md:w-full">
-              <div className="w-full max-w-xs mx-3 mb-4 sm:w-1/4">
-                <a href="mailto:guruhanamannavar676@gmail.com" className="block text-center h-16 pt-5 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded" target="_blank" rel="noopener noreferrer">Email</a>
+              <div className="w-full max-w-xs mx-3 mb-4 sm:w-1/6">
+                <a href="mailto:guruhanamannavar676@gmail.com" className="block text-center h-16 pt-5 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-md" target="_blank" rel="noopener noreferrer">Email</a>
               </div>
-              <div className="w-full max-w-xs mx-3 mb-4 sm:w-1/4">
-                <a href="https://github.com/dreamboyguru" className="block text-center h-16 pt-5 bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <div className="w-full max-w-xs mx-3 mb-4 sm:w-1/6">
+                <a href="#" className="block text-center h-16 pt-5 bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded shadow-md" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
-              <div className="w-full max-w-xs mx-3 mb-4 sm:w-1/4">
-                <a href="https://wa.me/7353249095" className="block text-center h-16 pt-5 bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+              <div className="w-full max-w-xs mx-3 mb-4 sm:w-1/6">
+                <a href="https://wa.me/7353249095" className="block text-center h-16 pt-5 bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded shadow-md" target="_blank" rel="noopener noreferrer">WhatsApp</a>
               </div>
-              {/* <div className="w-full max-w-xs mx-3 mb-4 sm:w-1/4">
-                <a href="https://www.linkedin.com/in/yourusername" className="block text-center bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-              </div> */}
+              <div className="w-full max-w-xs mx-3 mb-4 sm:w-1/6">
+                <a href="https://www.linkedin.com/in/gurusidda-hanamannavar-67b276170" className="block text-center h-16 pt-5 bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded shadow-md" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              </div>
             </div>
           </div>
         </div>

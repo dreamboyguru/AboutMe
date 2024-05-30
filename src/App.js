@@ -9,6 +9,7 @@ import Project from './components/Project';
 import Contact from './components/Contact';
 import smoothscroll from 'smoothscroll-polyfill';
 import Footer from './components/Footer';
+import Certificates from './components/Certificates';
 
 function App() {
   smoothscroll.polyfill();
@@ -27,6 +28,7 @@ function App() {
       <About />
       <Skill />
       <Project />
+      <Certificates />
       <Contact />
       <Footer />
     </div>
