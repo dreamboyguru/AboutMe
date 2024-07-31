@@ -10,7 +10,7 @@ function About() {
 
         {/* Overlay form */}
         <div className="absolute top-20 left-0 w-1/3 h-full flex items-start ml-[65%] max-lg:ml-[55%] max-lg:w-[45%] max-md:mx-[2.5%] max-lg:top-10 max-md:w-[95%] ">
-          <div className="bg-white p-6 rounded-lg shadow-md">
+          <div className="bg-gradient-to-br from-white via-gray-100 to-gray-500 p-6 rounded-lg shadow-md">
             {/* Form content */}
             
             <form>
