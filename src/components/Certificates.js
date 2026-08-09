@@ -1,18 +1,26 @@
 import React, { useState } from 'react';
-import { FaTimes, FaSearchPlus } from 'react-icons/fa';
+import { FaTimes, FaSearchPlus, FaExternalLinkAlt } from 'react-icons/fa';
+import cert1 from './images/cert1.png';
+import cert2 from './images/cert2.png';
+import cert3 from './images/cert3.png';
+import cert4 from './images/cert4.png';
+import cert5 from './images/cert5.png';
+import cert6 from './images/cert6.png';
+import cert7 from './images/cert7.png';
+import cert8 from './images/cert8.png';
 
 function Certificates() {
   const [selectedCert, setSelectedCert] = useState(null);
 
   const certificates = [
-    "https://api-lb.appfurther.io/v2/ims/image/22630708315375",
-    "https://api-lb.appfurther.io/v2/ims/image/80177073483897",
-    "https://api-lb.appfurther.io/v2/ims/image/54859259079230",
-    "https://api-lb.appfurther.io/v2/ims/image/69359599363224",
-    "https://api-lb.appfurther.io/v2/ims/image/55172798162186",
-    "https://api-lb.appfurther.io/v2/ims/image/37315562102691",
-    "https://api-lb.appfurther.io/v2/ims/image/08216973909030",
-    "https://api-lb.appfurther.io/v2/ims/image/71935460387591"
+    { img: cert1, id: "22630708315375", name: "Certificate 1" },
+    { img: cert2, id: "80177073483897", name: "Certificate 2" },
+    { img: cert3, id: "54859259079230", name: "Certificate 3" },
+    { img: cert4, id: "69359599363224", name: "Certificate 4" },
+    { img: cert5, id: "55172798162186", name: "Certificate 5" },
+    { img: cert6, id: "37315562102691", name: "Certificate 6" },
+    { img: cert7, id: "08216973909030", name: "Certificate 7" },
+    { img: cert8, id: "71935460387591", name: "Certificate 8" }
   ];
 
   return (
@@ -29,14 +37,14 @@ function Certificates() {
 
         {/* Responsive grid */}
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
-          {certificates.map((certUrl, index) => (
+          {certificates.map((cert, index) => (
             <div 
               key={index} 
-              onClick={() => setSelectedCert(certUrl)}
+              onClick={() => setSelectedCert(cert)}
               className='glass-card group overflow-hidden rounded-xl border border-slate-800 hover:border-blue-500/30 transition-all duration-300 shadow-md cursor-pointer relative h-52 sm:h-56 w-full flex items-center justify-center bg-slate-950'
             >
               <img 
-                src={certUrl} 
+                src={cert.img} 
                 alt={`Certificate ${index + 1}`} 
                 className='w-full h-full object-cover opacity-85 group-hover:opacity-100 group-hover:scale-105 transition-transform duration-500' 
               />
@@ -55,22 +63,40 @@ function Certificates() {
       {/* Lightbox Modal */}
       {selectedCert && (
         <div 
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/90 backdrop-blur-sm transition-all"
+          className="fixed inset-0 z-50 flex flex-col items-center justify-center p-4 bg-slate-950/90 backdrop-blur-sm transition-all"
           onClick={() => setSelectedCert(null)}
         >
-          <div className="relative max-w-4xl w-full max-h-[85vh] overflow-hidden flex items-center justify-center">
-            <button 
-              onClick={() => setSelectedCert(null)}
-              className="absolute top-4 right-4 p-2 bg-slate-900/80 hover:bg-slate-800 border border-slate-700/50 hover:border-slate-600 rounded-full text-gray-300 hover:text-white transition-all shadow-md z-10 cursor-pointer"
-            >
-              <FaTimes size={18} />
-            </button>
+          {/* Floating easily clickable close button */}
+          <button 
+            onClick={() => setSelectedCert(null)}
+            className="fixed top-6 right-6 w-12 h-12 sm:w-14 sm:h-14 flex items-center justify-center bg-slate-900/90 hover:bg-slate-800 border border-slate-700/50 rounded-full text-gray-300 hover:text-white transition-all shadow-xl z-50 cursor-pointer"
+            aria-label="Close"
+          >
+            <FaTimes size={20} />
+          </button>
+
+          <div 
+            className="relative max-w-4xl w-full max-h-[70vh] overflow-hidden flex items-center justify-center"
+            onClick={(e) => e.stopPropagation()}
+          >
             <img 
-              src={selectedCert} 
-              alt="Certificate Lightbox" 
-              className="max-w-full max-h-[80vh] object-contain rounded-lg border border-slate-800 shadow-2xl"
-              onClick={(e) => e.stopPropagation()}
+              src={selectedCert.img} 
+              alt={selectedCert.name} 
+              className="max-w-full max-h-[65vh] object-contain rounded-lg border border-slate-800 shadow-2xl animate-float-quick"
             />
+          </div>
+
+          {/* Verification Link Button */}
+          <div className="mt-6 z-10" onClick={(e) => e.stopPropagation()}>
+            <a 
+              href={`https://certificates.almabetter.com/en/verify/${selectedCert.id}`}
+              target="_blank"
+              rel="noreferrer"
+              className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg shadow-md hover:-translate-y-0.5 transition-all duration-200 text-center flex items-center gap-2 cursor-pointer border-0"
+            >
+              <span>Verify Certificate</span>
+              <FaExternalLinkAlt size={12} />
+            </a>
           </div>
         </div>
       )}

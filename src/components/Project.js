@@ -234,10 +234,23 @@ function Project() {
 
       {/* Details Lightbox Modal */}
       {selectedProject && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-md">
+        <div 
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-md"
+          onClick={() => setSelectedProject(null)}
+        >
+          {/* Floating easily clickable close button */}
+          <button 
+            onClick={() => setSelectedProject(null)}
+            className="fixed top-6 right-6 w-12 h-12 sm:w-14 sm:h-14 flex items-center justify-center bg-slate-900/90 hover:bg-slate-800 border border-slate-700/50 rounded-full text-gray-300 hover:text-white transition-all shadow-xl z-50 cursor-pointer"
+            aria-label="Close"
+          >
+            <FaTimes size={20} />
+          </button>
+
           <div 
             className="glass-card w-full max-w-2xl rounded-2xl border border-slate-800 overflow-hidden shadow-2xl relative"
             style={{ animation: 'float 0.3s ease-out' }}
+            onClick={(e) => e.stopPropagation()}
           >
             {/* Modal Image */}
             <div className="h-48 sm:h-64 overflow-hidden relative bg-slate-950">
@@ -246,12 +259,6 @@ function Project() {
                 alt={selectedProject.title} 
                 className="w-full h-full object-cover opacity-85"
               />
-              <button 
-                onClick={() => setSelectedProject(null)}
-                className="absolute top-4 right-4 p-2 bg-slate-900/80 hover:bg-slate-800 border border-slate-700/50 hover:border-slate-600 rounded-full text-gray-300 hover:text-white transition-all shadow-md cursor-pointer"
-              >
-                <FaTimes size={16} />
-              </button>
               <div className="absolute inset-0 bg-gradient-to-t from-[#0b0f19] via-transparent to-transparent"></div>
               <div className="absolute bottom-4 left-6">
                 <h3 className="text-2xl sm:text-3xl font-extrabold text-white">
