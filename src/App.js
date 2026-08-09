@@ -4,6 +4,7 @@ import './App.css';
 import Header from './components/Header';
 import Home from './components/Home';
 import About from './components/About';
+import Experience from './components/Experience';
 import Skill from './components/Skill';
 import Project from './components/Project';
 import Contact from './components/Contact';
@@ -14,7 +15,7 @@ import Certificates from './components/Certificates';
 function App() {
   smoothscroll.polyfill();
   return (
-    <div className="App">
+    <div className="App bg-[#0b0f19] min-h-screen text-slate-100">
       <Header />
       {/* <Routes>
         <Route path='/' element={<Home />} />
@@ -26,6 +27,7 @@ function App() {
       
       <Home />
       <About />
+      <Experience />
       <Skill />
       <Project />
       <Certificates />
@@ -36,3 +38,4 @@ function App() {
 }
 
 export default App;
+
