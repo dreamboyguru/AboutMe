@@ -33,7 +33,7 @@ function Certificates() {
             <div 
               key={index} 
               onClick={() => setSelectedCert(certUrl)}
-              className='glass-card group overflow-hidden rounded-xl border border-slate-800 hover:border-blue-500/30 transition-all duration-300 shadow-md cursor-pointer relative aspect-[4/3] flex items-center justify-center bg-slate-950'
+              className='glass-card group overflow-hidden rounded-xl border border-slate-800 hover:border-blue-500/30 transition-all duration-300 shadow-md cursor-pointer relative h-52 sm:h-56 w-full flex items-center justify-center bg-slate-950'
             >
               <img 
                 src={certUrl} 
